@@ -7,6 +7,8 @@ Ce projet est une application web simple permettant de gérer une petite base de
 L’utilisateur peut ajouter un livre, le rechercher, lister tous les enregistrements et réinitialiser la base.
 Aucune base de données externe n’est nécessaire : tout est sauvegardé localement via localStorage.
 
+
+
 L’objectif du projet est de fournir un exemple clair de :
 
 manipulation du DOM en JavaScript ;

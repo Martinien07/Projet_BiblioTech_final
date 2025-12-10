@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Gestion Biblio</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>📚 BIBLIO MANAGER PRO</h1>
+
+        <div class="form-area">
+            <input type="text" id="inputTitle" placeholder="Titre...">
+            <input type="text" id="inputAuthor" placeholder="Auteur...">
+            <select id="selectCategory">
+                <option value="1">Science-Fiction</option>
+                <option value="2">Documentaire</option>
+                <option value="3">Roman</option>
+            </select>
+            <input type="text" id="inputIsbn" placeholder="ISBN">
+            <button class="btn-add" id="btn_save">ENREGISTRER</button>
+            <br><br>
+            Recherche : <input type="text" id="inp_search" placeholder="Recherche...">
+        </div>
+
+        <p id="zone_m"></p>
+
+        <h3>Inventaire (<span id="cpt">0</span>)</h3>
+        <table id="tab">
+            <thead>
+                <tr>
+                    <th>Num</th>
+                    <th>Info Livre</th>
+                    <th>Type</th>
+                    <th>Détails</th>
+                    <th>Opt</th>
+                </tr>
+            </thead>
+            <tbody id="corps_du_tableau">
+            </tbody>
+        </table>
+
+        <br>
+        <button id="btn_kill">⚠️ RAZ</button>
+    </div>
+
+    <!-- scripts: helpers, components, app -->
+    <script src="./js/helpers.js" defer></script>
+    <script src="./js/components/bookRow.js" defer></script>
+    <script src="./js/app.js" defer></script>
+</body>
+
+</html>
