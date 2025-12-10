@@ -151,7 +151,7 @@ el.innerHTML = html;
 document.getElementById("cpt").innerHTML = count;
 }
 function del(id) {
-// demande confirmation
+// pour la  demande confirmation
 if(confirm("Supprimer ?")) {
 for(var z=0; z<DATA_BASE.length; z++) {
 if(DATA_BASE[z].uid == id) {
@@ -173,9 +173,9 @@ var col = rows[i].getElementsByTagName("td")[1];
 if (col) {
 var txt = col.textContent || col.innerText;
 if (txt.toUpperCase().indexOf(f) > -1) {
-rows[i].style.display = ""; // montre
+rows[i].style.display = ""; // ca montre
 } else {
-rows[i].style.display = "none"; // cache
+rows[i].style.display = "none"; // ca cache
 }
 }       
 }
