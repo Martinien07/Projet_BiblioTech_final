@@ -3,6 +3,10 @@
 ## Gestionnaire de Livres (Application Web)
 **1. Présentation du projet**
 
+Ce projet est une application web simple permettant de gérer une petite base de données de livres directement dans le navigateur.
+L’utilisateur peut ajouter un livre, le rechercher, lister tous les enregistrements et réinitialiser la base.
+Aucune base de données externe n’est nécessaire : tout est sauvegardé localement via localStorage.
+
 
 
 L’objectif du projet est de fournir un exemple clair de :
